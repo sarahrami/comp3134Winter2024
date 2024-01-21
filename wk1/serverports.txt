@@ -1,0 +1,27 @@
+• What is the definition of server port?
+
+- A server port is a logical construct used to identify a specific process 
+    to which an Internet or network message is to be forwarded when it arrives at a server.
+
+• What is server port range?
+
+- The port range typically refers to the valid and standardized range of port numbers that can be used for various services.
+    In the context of TCP/IP networking, valid port numbers range from 0 to 65535.
+
+• How many bits does number above represent?
+
+- The range of port (0 to 65535) can be represented by 16 bits,
+    because 2^16 equals 65536.
+
+• State 10 common server ports ?
+
+- HTTP (Hypertext Transfer Protocol): Port 80
+- HTTPS (HTTP Secure): Port 443
+- HTTPS (Alternative): Port 8443
+- FTP (File Transfer Protocol): Port 21
+- DNS (Domain Name System): Port 53
+- SSH (Secure Shell): Port 22
+- SMTP (Simple Mail Transfer Protocol): Port 25
+- POP3 (Post Office Protocol version 3): Port 110
+- IMAP (Internet Message Access Protocol): Port 143
+- TELNET: Port 23
