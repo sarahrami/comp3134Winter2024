@@ -1,0 +1,19 @@
+Domain: apple.com
+IP Address: 17.253.144.10
+Geolocation: Cupertino, California, United States of America
+--------------------------------------------------------------------
+Domain: bbc.com
+IP Address: 151.101.64.81
+Geolocation: San Francisco, California, United States of America
+--------------------------------------------------------------------
+Domain: intel.com
+IP Address: 13.91.95.74
+Geolocation: San Jose, California, United States of America
+--------------------------------------------------------------------
+Domain: github.com
+IP Address: 192.30.255.113
+Geolocation: Seattle, Washington, United States of America
+--------------------------------------------------------------------
+Domain: cisco.com
+IP Address: 72.163.4.185
+Geolocation: Richardson, Texas, United States of America

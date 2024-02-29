@@ -1,0 +1,94 @@
+Domain: facebook.com
+Registrar: RegistrarSafe, LLC
+Registered On: 1997-03-29
+Expires On: 2032-03-30
+Updated On: 2023-04-26
+Status:
+        clientDeleteProhibited
+        clientTransferProhibited
+        clientUpdateProhibited
+        serverDeleteProhibited
+        serverTransferProhibited
+        serverUpdateProhibited
+Name Servers:
+        a.ns.facebook.com
+        b.ns.facebook.com
+        c.ns.facebook.com
+        d.ns.facebook.com
+--------------------------------------------------------------------
+Domain: netflix.com
+Registrar: MarkMonitor Inc.
+Registered On: 1997-11-11
+Expires On: 2025-11-10
+Updated On: 2023-10-09
+Status:
+        clientDeleteProhibited
+        clientTransferProhibited
+        clientUpdateProhibited
+        serverDeleteProhibited
+        serverTransferProhibited
+        serverUpdateProhibited
+Name Servers:
+        ns-1372.awsdns-43.org
+        ns-1984.awsdns-56.co.uk
+        ns-659.awsdns-18.net
+        ns-81.awsdns-10.com
+--------------------------------------------------------------------
+Domain: adobe.com
+Registrar: Nom-iq Ltd. dba COM LAUDE
+Registered On: 1986-11-17
+Expires On: 2024-05-17
+Updated On: 2023-09-26
+Status:
+        clientDeleteProhibited
+        clientTransferProhibited
+        clientUpdateProhibited
+        serverDeleteProhibited
+        serverTransferProhibited
+Name Servers:
+        a1-217.akam.net
+        a10-64.akam.net
+        a13-65.akam.net
+        a26-66.akam.net
+        a28-67.akam.net
+        a7-64.akam.net       
+--------------------------------------------------------------------
+Domain: cnn.com
+Registrar: Nom-iq Ltd. dba COM LAUDE
+Registered On: 1993-09-22
+Expires On: 2027-09-21
+Updated On: 2023-12-04
+Status:
+        clientDeleteProhibited
+        clientTransferProhibited
+        clientUpdateProhibited
+        serverDeleteProhibited
+        serverTransferProhibited
+        serverUpdateProhibited
+Name Servers:
+        ns-1086.awsdns-07.org
+        ns-1630.awsdns-11.co.uk
+        ns-47.awsdns-05.com
+        ns-576.awsdns-08.net
+--------------------------------------------------------------------
+Domain: amazon.com
+Registrar: MarkMonitor Inc.
+Registered On: 1994-11-01
+Expires On: 2024-10-30
+Updated On: 2023-05-16
+Status:
+        clientDeleteProhibited
+        clientTransferProhibited
+        clientUpdateProhibited
+        serverDeleteProhibited
+        serverTransferProhibited
+        serverUpdateProhibited
+Name Servers:
+        ns1.amzndns.co.uk
+        ns1.amzndns.com
+        ns1.amzndns.net
+        ns1.amzndns.org
+        ns2.amzndns.co.uk
+        ns2.amzndns.com
+        ns2.amzndns.net
+        ns2.amzndns.org

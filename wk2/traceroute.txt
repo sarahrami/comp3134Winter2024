@@ -1,0 +1,10 @@
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# traceroute facebook.com
+
+traceroute to facebook.com (31.13.80.36), 30 hops max, 60 byte packets
+ 1  162.243.190.9 (162.243.190.9)  1.586 ms 162.243.190.8 (162.243.190.8)  1.565 ms  1.549 ms
+ 2  143.198.252.196 (143.198.252.196)  1.533 ms 143.198.252.192 (143.198.252.192)  1.518 ms 143.198.252.194 (143.198.252.194)  1.528 ms
+ 3  162.243.190.37 (162.243.190.37)  25.359 ms  25.271 ms  2.424 ms
+ 4  po204.asw03.yyz1.tfbnw.net (129.134.40.228)  1.598 ms  1.583 ms po204.asw01.yyz1.tfbnw.net (129.134.35.42)  1.718 ms
+ 5  psw04.yyz1.tfbnw.net (173.252.65.28)  1.699 ms psw02.yyz1.tfbnw.net (173.252.65.70)  1.752 ms psw04.yyz1.tfbnw.net (173.252.65.28)  1.668 ms
+ 6  msw1af.01.yyz1.tfbnw.net (129.134.58.158)  1.650 ms msw1ad.01.yyz1.tfbnw.net (129.134.92.128)  1.254 ms msw1ae.01.yyz1.tfbnw.net (129.134.92.123)  1.620 ms
+ 7  edge-star-mini-shv-01-yyz1.facebook.com (31.13.80.36)  1.447 ms  1.472 ms  1.369 ms

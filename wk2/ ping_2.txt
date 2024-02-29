@@ -1,0 +1,11 @@
+❯ ping -c 4 159.203.10.106
+
+PING 159.203.10.106 (159.203.10.106): 56 data bytes
+64 bytes from 159.203.10.106: icmp_seq=0 ttl=55 time=13.970 ms
+64 bytes from 159.203.10.106: icmp_seq=1 ttl=55 time=13.389 ms
+64 bytes from 159.203.10.106: icmp_seq=2 ttl=55 time=40.854 ms
+64 bytes from 159.203.10.106: icmp_seq=3 ttl=55 time=19.017 ms
+
+--- 159.203.10.106 ping statistics ---
+4 packets transmitted, 4 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 13.389/21.807/40.854/11.212 ms

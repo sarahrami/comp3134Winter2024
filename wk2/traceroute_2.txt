@@ -1,0 +1,20 @@
+❯ traceroute facebook.com
+
+traceroute to facebook.com (157.240.254.35), 64 hops max, 52 byte packets
+ 1  mynetwork (192.168.2.1)  7.304 ms  4.428 ms  5.081 ms
+ 2  * * *
+ 3  * * *
+ 4  64.230.59.212 (64.230.59.212)  28.882 ms  26.233 ms  23.697 ms
+ 5  * * *
+ 6  64.230.79.171 (64.230.79.171)  30.352 ms  23.032 ms  22.557 ms
+ 7  ae9.pr03.ord3.tfbnw.net (157.240.67.78)  29.881 ms  46.682 ms  42.933 ms
+ 8  po111.asw02.ord3.tfbnw.net (31.13.24.44)  25.022 ms
+    po111.asw01.ord3.tfbnw.net (31.13.24.24)  24.179 ms
+    po111.asw03.ord3.tfbnw.net (31.13.24.88)  27.221 ms
+ 9  psw04.ord5.tfbnw.net (129.134.82.165)  22.958 ms
+    psw01.ord5.tfbnw.net (129.134.82.167)  22.282 ms  21.796 ms
+10  157.240.39.191 (157.240.39.191)  24.356 ms
+    157.240.39.149 (157.240.39.149)  23.770 ms
+    157.240.36.79 (157.240.36.79)  23.508 ms
+11  * * *
+12  * * edge-star-mini-shv-02-ord5.facebook.com (157.240.254.35)  27.491 ms

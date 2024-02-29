@@ -1,0 +1,30 @@
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -r 0001.pcap
+
+reading from file 0001.pcap, link-type EN10MB (Ethernet), snapshot length 262144
+07:08:08.481655 IP 162.243.188.66.14571 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 3865919657, win 501, options [nop,nop,TS val 3259984691 ecr 1108630458], length 0
+07:08:08.482089 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 162.243.188.66.14571: Flags [P.], seq 1:65, ack 0, win 502, options [nop,nop,TS val 1108630473 ecr 3259984691], length 64
+07:08:08.482157 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 162.243.188.66.14571: Flags [P.], seq 65:145, ack 0, win 502, options [nop,nop,TS val 1108630473 ecr 3259984691], length 80
+07:08:08.482245 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 162.243.188.66.14571: Flags [P.], seq 145:305, ack 0, win 502, options [nop,nop,TS val 1108630473 ecr 3259984691], length 160
+07:08:08.482317 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 162.243.188.66.14571: Flags [P.], seq 305:369, ack 0, win 502, options [nop,nop,TS val 1108630473 ecr 3259984691], length 64
+07:08:08.496571 IP 162.243.188.66.14571 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 65, win 501, options [nop,nop,TS val 3259984706 ecr 1108630473], length 0
+07:08:08.496617 IP 162.243.188.66.14571 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 145, win 501, options [nop,nop,TS val 3259984706 ecr 1108630473], length 0
+07:08:08.496617 IP 162.243.188.66.14571 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 305, win 501, options [nop,nop,TS val 3259984706 ecr 1108630473], length 0
+07:08:08.496697 IP 162.243.188.66.14571 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 369, win 501, options [nop,nop,TS val 3259984706 ecr 1108630473], length 0
+07:08:09.601224 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 180.101.88.249.64206: Flags [P.], seq 1772635644:1772635724, ack 1412285320, win 503, options [nop,nop,TS val 2701204864 ecr 3032628], length 80
+07:08:09.816278 IP 180.101.88.249.64206 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:65, ack 80, win 263, options [nop,nop,TS val 3033332 ecr 2701204864], length 64
+07:08:09.816279 IP 180.101.88.249.64206 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [F.], seq 65, ack 80, win 263, options [nop,nop,TS val 3033332 ecr 2701204864], length 0
+07:08:09.816327 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 180.101.88.249.64206: Flags [.], ack 65, win 503, options [nop,nop,TS val 2701205079 ecr 3033332], length 0
+07:08:09.818652 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 180.101.88.249.64206: Flags [F.], seq 80, ack 66, win 503, options [nop,nop,TS val 2701205081 ecr 3033332], length 0
+07:08:10.033793 IP 180.101.88.249.64206 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 81, win 263, options [nop,nop,TS val 3033387 ecr 2701205081], length 0
+07:08:11.007572 IP ip-40-70.4vendeta.com.43734 > ubuntu-s-1vcpu-1gb-tor1-01.2010: Flags [S], seq 2153380139, win 1025, options [mss 1460], length 0
+07:08:11.007606 IP ubuntu-s-1vcpu-1gb-tor1-01.2010 > ip-40-70.4vendeta.com.43734: Flags [R.], seq 0, ack 2153380140, win 0, length 0
+07:08:11.151919 IP ip-40-70.4vendeta.com.43734 > ubuntu-s-1vcpu-1gb-tor1-01.2010: Flags [R], seq 2153380140, win 1200, options [mss 1460], length 0
+07:08:11.344556 IP 205.210.31.90.50372 > ubuntu-s-1vcpu-1gb-tor1-01.ftp: Flags [S], seq 3189712720, win 65535, options [mss 1460], length 0
+07:08:11.344594 IP ubuntu-s-1vcpu-1gb-tor1-01.ftp > 205.210.31.90.50372: Flags [R.], seq 0, ack 3189712721, win 0, length 0
+07:08:15.142507 IP 45-33-85-85.ip.linodeusercontent.com.61000 > ubuntu-s-1vcpu-1gb-tor1-01.smtp: Flags [S], seq 579621991, win 1024, length 0
+07:08:15.142545 IP ubuntu-s-1vcpu-1gb-tor1-01.smtp > 45-33-85-85.ip.linodeusercontent.com.61000: Flags [R.], seq 0, ack 579621992, win 0, length 0
+07:08:17.294560 IP 80.66.83.153.52790 > ubuntu-s-1vcpu-1gb-tor1-01.43607: Flags [S], seq 2605955288, win 1025, options [mss 1460], length 0
+07:08:17.294597 IP ubuntu-s-1vcpu-1gb-tor1-01.43607 > 80.66.83.153.52790: Flags [R.], seq 0, ack 2605955289, win 0, length 0
+07:08:17.392828 IP 80.66.83.153.52790 > ubuntu-s-1vcpu-1gb-tor1-01.43607: Flags [R], seq 2605955289, win 1200, options [mss 1460], length 0
+07:08:17.551789 IP 103.145.4.190.52544 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [S], seq 678263559, win 65535, length 0
+07:08:17.551842 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 103.145.4.190.52544: Flags [S.], seq 3486116769, ack 678263560, win 64240, options [mss 1460], length 0

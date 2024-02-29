@@ -1,0 +1,14 @@
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# ping apple.com
+PING apple.com(icloud.com (2620:149:af0::10)) 56 data bytes
+
+--- apple.com ping statistics ---
+23 packets transmitted, 23 received, 0% packet loss, time 22007ms
+rtt min/avg/max/mdev = 197.432/226.393/262.876/27.828 ms
+-------------------------------------------------------------------
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# ping apple.com -w 150
+PING apple.com(icloud.com (2620:149:af0::10)) 56 data bytes
+
+--- apple.com ping statistics ---
+14 packets transmitted, 14 received, 0% packet loss, time 13004ms
+rtt min/avg/max/mdev = 197.517/198.109/198.925/0.353 ms
+

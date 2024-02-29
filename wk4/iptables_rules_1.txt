@@ -1,0 +1,16 @@
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# man iptables
+--------------------------------------------------------------------
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# iptables --version
+
+iptables v1.8.9 (nf_tables)
+--------------------------------------------------------------------
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# iptables -L -v
+
+Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination  
