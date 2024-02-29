@@ -1,0 +1,6 @@
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# sudo tcpdump -w all_traffic_20240228_1139.pcap
+
+tcpdump: listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+^C37 packets captured
+38 packets received by filter
+0 packets dropped by kernel
